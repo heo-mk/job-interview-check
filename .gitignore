@@ -1,0 +1,43 @@
+# Agent settings & rules
+.agent/
+.agents/
+**/.agent/
+**/.agents/
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production builds
+dist/
+**/dist/
+dist-ssr/
+**/dist-ssr/
+*.local
+
+# Vite cache
+.vite/
+**/.vite/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Sanity studio local cache & state
+.sanity/
+**/.sanity/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS temporary files
+.DS_Store
+Thumbs.db
